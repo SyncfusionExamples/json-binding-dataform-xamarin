@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dataForm="clr-namespace:Syncfusion.XForms.DataForm;assembly=Syncfusion.SfDataForm.XForms"
+             xmlns:local="clr-namespace:DataFormXamarin"
+             x:Class="DataFormXamarin.DataFormPage">
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid Padding="0,30,0,0">
+        <dataForm:SfDataForm x:Name="dataForm" DataObject="{Binding ContactsInfo}" />
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>
