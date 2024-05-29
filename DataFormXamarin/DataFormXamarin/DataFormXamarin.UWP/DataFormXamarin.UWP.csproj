@@ -147,10 +147,10 @@
       <Version>13.0.2</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfDataForm">
-      <Version>17.4.0.55</Version>
+      <Version>*</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.9" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataFormXamarin\DataFormXamarin.csproj">
